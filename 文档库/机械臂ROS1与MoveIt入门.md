@@ -50,7 +50,7 @@ bash /home/jetson/farm-tools/arm-noetic.sh setup
 /root/yahboomcar_ws/src/yahboomcar_description/urdf/yahboomcar_X3plus.urdf
 ```
 
-此文件存在已核对，模型加载、碰撞矩阵和规划组配置仍需按课程逐步验收。新生成的配置包保存为 `/root/farm_data/x3plus_moveit_config_tutorial`，避免覆盖预装配置。
+此文件存在已核对。预装成品包已于同日按第一课逐项核对并通过 `sim:=true` 仿真规划验证（6/6），详见[《MoveIt配置与仿真验证》](MoveIt配置与仿真验证.md)；按课程从零重新生成仍是有效练习，产出请保存为 `/root/farm_data/x3plus_moveit_config_tutorial`，避免覆盖预装配置。
 
 若只是查看已有配置，可选择 `Edit Existing MoveIt Configuration Package`，目录为 `/root/yahboomcar_ws/src/x3plus_moveit_config`。不要把“已有配置存在”理解为实物关节零位、限位或底板协议已经验证。
 
@@ -91,4 +91,4 @@ rospack find x3plus_moveit_config
 
 桌面重新登录或小车重启后，X11 认证文件可能变化。若 `core` 正常但助手提示无法连接显示，先核对当前桌面的 `DISPLAY` 与 `XAUTHORITY`，不要直接执行 `xhost +`。旧容器可能需要在保存配置后重新创建以更新认证挂载；不要未经备份就删除容器。
 
-本次完成 ROS master 和软件环境检查，容器内 `xdpyinfo` 成功，并通过 `xwininfo` 确认配置助手已创建标题为 `MoveIt Setup Assistant` 的 1090×600 窗口。测试程序结束，容器保留并停止，执行第一步即可重启。未截图核对窗口内容。模型加载、配置生成、RViz 规划、真实舵机通信与运动、远程桌面画面验收分别记录，不能用 `roscore` 成功替代。
+本次完成 ROS master 和软件环境检查，容器内 `xdpyinfo` 成功，并通过 `xwininfo` 确认配置助手已创建标题为 `MoveIt Setup Assistant` 的 1090×600 窗口。测试程序结束，容器保留并停止，执行第一步即可重启。未截图核对窗口内容。同日后续：预装配置包已完成内容核对与仿真规划验证，见[《MoveIt配置与仿真验证》](MoveIt配置与仿真验证.md)；RViz 画面、从零生成练习、真实舵机通信与运动、远程桌面画面验收仍未验证，不能相互替代。
