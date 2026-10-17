@@ -1,0 +1,400 @@
+{
+  "date": "2026-10-17",
+  "scope": "All 48 working-tree files at audit start, including hidden attachments and untracked DOCX; excludes .git internals and audit scratch files.",
+  "files": [
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/000fc290-f33b-446e-ae75-87b4f2d34125/1-1791699856254.jpg",
+      "size": 144619,
+      "sha256": "f6e7bb4d282cfea86be13a1ad4e62eea85dee2a0eab3f216b825ed4749fefe84",
+      "new_path": "docs/assets/photos/photo-01.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/000fc290-f33b-446e-ae75-87b4f2d34125/2-1791699856289.jpg",
+      "size": 94402,
+      "sha256": "c1d48a7033eb7f06c1d146a1726c289d58f5d23734468f3bb16855632548fbfd",
+      "new_path": "docs/assets/photos/photo-02.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/000fc290-f33b-446e-ae75-87b4f2d34125/3-1791699856315.jpg",
+      "size": 84481,
+      "sha256": "c823e8357d63c2191758a7798b98bfaf30fea004c518ae32e27d97c5f5beb7f2",
+      "new_path": "docs/assets/photos/photo-03.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/000fc290-f33b-446e-ae75-87b4f2d34125/4-1791699856334.jpg",
+      "size": 78389,
+      "sha256": "cd13e27d1865aeb04c8810cec9fb1464c8299bfc7df2276a96b344ccce92984c",
+      "new_path": "docs/assets/photos/photo-04.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/0d99424b-a614-4490-9f4d-45296ba2df6f/1-image-1791700973060.jpg",
+      "size": 116689,
+      "sha256": "3fd498c551284db90397a70b97242d2e202f3ff7e6404319f800b206c3b419dc",
+      "new_path": "docs/assets/photos/photo-05.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/23df2572-0394-40f8-a340-97d37fdd448a/1-1791700000839.jpg",
+      "size": 133783,
+      "sha256": "6ba40e7a4ea8b46d71a7a3a36a90d25625742fbd8d59353f74a41aa930f6b7b9",
+      "new_path": "docs/assets/photos/photo-06.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/23df2572-0394-40f8-a340-97d37fdd448a/2-1791700000871.jpg",
+      "size": 104927,
+      "sha256": "b3edc0f9f51385ffc7a5194d1f40a9889ab49b59e983d86654dac11003041b7e",
+      "new_path": "docs/assets/photos/photo-07.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/4ce8498e-3fdf-4775-bf9d-1e47b3cb9758/1-1791700204724.jpg",
+      "size": 176439,
+      "sha256": "e10d963a39c22c98d2068e65a06c0a890e308e4d9e1fa22f40fff27cda8781c0",
+      "new_path": "docs/assets/photos/photo-08.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/4ce8498e-3fdf-4775-bf9d-1e47b3cb9758/2-1791700204757.jpg",
+      "size": 146051,
+      "sha256": "f68eab64683c01c6715161240c7e86a67b33a356ffe74dd6d0751eb0e391a4a4",
+      "new_path": "docs/assets/photos/photo-09.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/59830956-9b0d-49fe-92dd-b36489793b8e/1-1791699694716.jpg",
+      "size": 189918,
+      "sha256": "71e15aa4b8125b6bac71eb9cf9c4c9109bf799f6053e4e3383dca656df798ed7",
+      "new_path": "docs/assets/photos/photo-10.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/59830956-9b0d-49fe-92dd-b36489793b8e/2-1791699694749.jpg",
+      "size": 190975,
+      "sha256": "608ae0c6248d503890c354a578f1da74abe0297b1e2ef4a66e552005b2e8b7d8",
+      "new_path": "docs/assets/photos/photo-11.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/59830956-9b0d-49fe-92dd-b36489793b8e/3-1791699694773.jpg",
+      "size": 146690,
+      "sha256": "e3934a3a849f5d442ce810182ba0319b7bad7bb3fbb33daa374ab9de234bf218",
+      "new_path": "docs/assets/photos/photo-12.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/627cc090-3ae3-45af-922f-7821b05f000e/1-1791700363040.jpg",
+      "size": 134036,
+      "sha256": "bee7134e4d79f4f16c93c39d5273ba38449d7e969fbb036b97b270e8fb9cf143",
+      "new_path": "docs/assets/photos/photo-13.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": ".codex-remote-attachments/01a12987-821e-78a1-ac08-cf69486b2204/627cc090-3ae3-45af-922f-7821b05f000e/2-1791700363073.jpg",
+      "size": 136384,
+      "sha256": "ad8d3966f481343e94a6bffca34648e80def88ed5bf175602a6e0b1f8a0a22cc",
+      "new_path": "docs/assets/photos/photo-14.jpg",
+      "action": "renamed; original bytes preserved",
+      "review": "解码并查看联系表；建立索引"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 1567,
+      "sha256": "cf653f67c5a9f424f5adf7c4e95e9e67345dccdedbd054b8e9d002b885117084",
+      "new_path": "AGENTS.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "README.md",
+      "size": 2438,
+      "sha256": "5fb23a3d23604cd2bfff19cffbaeb6347f7e6f308c2626980b3bb2108265162f",
+      "new_path": "README.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "robot-doc-governance-skill-v2.zip",
+      "size": 3419,
+      "sha256": "9fb2485b01ab05815dc94b7f9207f07cc7372e303320b0f0cdb98b565dce3f5f",
+      "new_path": "dist/robot-doc-governance.zip",
+      "action": "relocated and rebuilt from updated skill source",
+      "review": "CRC 和条目检查，与旧 skill 源码比对后重建新版"
+    },
+    {
+      "path": "scripts/arm-noetic.sh",
+      "size": 1959,
+      "sha256": "552ab2eb8f0774ecc0b89967202315d59e163b0e25029bd387222a7a8c5a04bd",
+      "new_path": "modules/arm/arm-noetic.sh",
+      "action": "renamed; original bytes preserved",
+      "review": "静态阅读；迁移后原字节保留；未执行"
+    },
+    {
+      "path": "skills/robot-doc-governance/agents/openai.yaml",
+      "size": 313,
+      "sha256": "6ea5713b53102ad222d73478051de3ba86a29b698262f7a5b04a008f75d7c6c8",
+      "new_path": "skills/robot-doc-governance/agents/openai.yaml",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "读取界面配置并随 skill 更新验证"
+    },
+    {
+      "path": "skills/robot-doc-governance/SKILL.md",
+      "size": 5195,
+      "sha256": "8f16b920cdf9d7cacd8baa4f21313457815892c5d2be6b8b6b204afe23eefc2c",
+      "new_path": "skills/robot-doc-governance/SKILL.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "小车基本文档与使用说明.md",
+      "size": 17369,
+      "sha256": "ce326fabea5b6576c80bf0d14fc096421432f4d36595915c858f75236528fc5f",
+      "new_path": "docs/guides/README.md",
+      "action": "split-and-rewritten; old path is a navigation stub",
+      "review": "全文审读；按职责迁移／重写并检查引用",
+      "derived_paths": [
+        "docs/environment/hardware.md",
+        "docs/environment/software.md",
+        "docs/guides/remote-access.md",
+        "docs/guides/sensors.md",
+        "docs/guides/data-recording.md",
+        "docs/troubleshooting/README.md",
+        "docs/modules/chassis.md",
+        "docs/references/README.md"
+      ]
+    },
+    {
+      "path": "文档库/README.md",
+      "size": 1884,
+      "sha256": "fdae85bf63ac1d6c64520957eabf0366eaac6a70cb31112b2774d2a3c907932b",
+      "new_path": "docs/README.md",
+      "action": "rewritten at new path; old path is a navigation stub",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "文档库/发现与变更记录.md",
+      "size": 9605,
+      "sha256": "30618caca903748eb4be01b0c0f6e38a8e252d86d272acc93667ea113b51407a",
+      "new_path": "docs/changes/README.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "文档库/当前状态.md",
+      "size": 3902,
+      "sha256": "138044d6a05c7e651241c7c56f0b196ddaf838b6223b6ec14bc3509cd191bdd1",
+      "new_path": "docs/status.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "文档库/文档库架构与维护规范.md",
+      "size": 6003,
+      "sha256": "51aa113e2388944e65b3ae145b985f89a703b5484f15c8deddf25f749d3b63e6",
+      "new_path": "docs/maintenance.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "文档库/文档模板.md",
+      "size": 1611,
+      "sha256": "df162657a16885e3a61f018bd773554f6bad73b997b19f350a0f13c947809455",
+      "new_path": "docs/templates.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "文档库/机械臂ROS1与MoveIt入门.md",
+      "size": 7089,
+      "sha256": "299832c6df52b66787f959d678b7983983c09df80d0b42f27df52c8af01fc942",
+      "new_path": "docs/guides/arm.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "文档库/架构与代码地图.md",
+      "size": 6154,
+      "sha256": "bcbc402c058d0f3da6f6c71dc52abadaa1f61302e5cda84ddd3bffc10f3fdbf5",
+      "new_path": "docs/architecture.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "无人小车流程结构.docx",
+      "size": 289729,
+      "sha256": "70a39d391105e9e5dbfbd9d22b63678c89cd755d91b2bf4f580568782313a7a6",
+      "new_path": "docs/references/plans/farm-workflow.docx",
+      "action": "renamed; original bytes preserved",
+      "review": "读取正文 XML 与内嵌图；页面渲染不可用"
+    },
+    {
+      "path": "机械臂文档/04、MoveIt运动学设计.pdf",
+      "size": 560247,
+      "sha256": "71d185bd898e3ea32c2615e6bb24548d6523ca49e46b9edf87059ea5b2addd28",
+      "new_path": "modules/arm/vendor/04-moveit-kinematics.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/10、Mediapipe手势控制机械臂动作组.pdf",
+      "size": 337858,
+      "sha256": "588bde9992bfadb0c93db45c467b9afc06d211d93581cc1f041f0f38f7154fcc",
+      "new_path": "modules/arm/vendor/10-mediapipe-arm-gestures.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/11、Mediapipe手势识别控制小车运动.pdf",
+      "size": 255386,
+      "sha256": "77dca46489f7c92c69c1606b59f1d1f29712d4904558550c778ed9b990fb3570",
+      "new_path": "modules/arm/vendor/11-mediapipe-chassis-gestures.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/12、Mediapipe手臂姿态控制机械臂.pdf",
+      "size": 362008,
+      "sha256": "1983cfebba34cf0b3a9bb5124e37e2e7f8a7327eee8be35036f074e2104f80c4",
+      "new_path": "modules/arm/vendor/12-mediapipe-arm-pose.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/13、Mediapipe识别追踪手掌控制机械臂.pdf",
+      "size": 191367,
+      "sha256": "0430479dc0c913ea6ad815a21ee8402dae898573ffd880f9b613c965a16ca449",
+      "new_path": "modules/arm/vendor/13-mediapipe-palm-tracking.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/14、色块识别搬运.pdf",
+      "size": 1073195,
+      "sha256": "aa9756882e84fcc24cf38fd9d4c8e8f4ce866664230f7ee984899e6ca8670515",
+      "new_path": "modules/arm/vendor/14-color-transport.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/15、自动驾驶清障.pdf",
+      "size": 433382,
+      "sha256": "033dc6b3116f1970e347492555adbeb93e56067892e729968a2ff702bdd27108",
+      "new_path": "modules/arm/vendor/15-autopilot-obstacle-clearing.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/1、MoveIt配置.pdf",
+      "size": 2675151,
+      "sha256": "e93bd43bee5c7e3de8387dc3a33f57e7937a55114793408ec53d94edf5ddc26d",
+      "new_path": "modules/arm/vendor/01-moveit-setup.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/2、MoveIt注意事项与控制真机.pdf",
+      "size": 1545096,
+      "sha256": "db64524e3d711522bcf0d03909f7acc80c792a110eebf9fd17cdfa9dcb182e3d",
+      "new_path": "modules/arm/vendor/02-moveit-simulation-and-hardware.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/3、随机移动.pdf",
+      "size": 547265,
+      "sha256": "ca87d22d0d67bccc9eefd4c8a1e29a89e568b6c91855656db879abb321171962",
+      "new_path": "modules/arm/vendor/03-random-motion.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/5、MoveIt笛卡尔路径.pdf",
+      "size": 271179,
+      "sha256": "4b926cbce9e176bcf7c9b3f1cebbffa7f3513054983b29b91111d1dd795cd34f",
+      "new_path": "modules/arm/vendor/05-cartesian-path.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/6E1B9C8EDC58918D96AA1DD33ADDE6BFB28DD693.torrent",
+      "size": 81023,
+      "sha256": "a11c08ef74191e0f6b0d63764c379232abf5e93a1240515074dcc3e6a2e38fcb",
+      "new_path": "archive/unclassified/6e1b9c8edc58918d96aa1dd33adde6bfb28dd693.torrent",
+      "action": "renamed; original bytes preserved",
+      "review": "解析完整 bencode 元数据；未下载目标"
+    },
+    {
+      "path": "机械臂文档/6、MoveIt碰撞检测.pdf",
+      "size": 459903,
+      "sha256": "27b1cd269d6c2875d1e42f560f86f2d5d55ced8dd86808c380391ded7621173f",
+      "new_path": "modules/arm/vendor/06-collision-detection.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/7、MoveIt场景设计.pdf",
+      "size": 326620,
+      "sha256": "b154c8c795d4a4d09647dc8d8610748d716a9f489ce65590059ef92ce178d0a2",
+      "new_path": "modules/arm/vendor/07-planning-scene.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/8、MoveIt轨迹规划.pdf",
+      "size": 247884,
+      "sha256": "3281fb96e6011e2d9ce94a363b2de94fdd8a1d2ac01553b5d1fd4a551a11a2f3",
+      "new_path": "modules/arm/vendor/08-trajectory-planning.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "机械臂文档/9D5B515A3B8CD104B0A86F9CA5C32B13A0EC9353.torrent",
+      "size": 95164,
+      "sha256": "5ab31f1ef9b598e8567a3d57e706282a5deb3acf3b5f117ab52932d9536e69a6",
+      "new_path": "archive/unclassified/9d5b515a3b8cd104b0a86f9ca5c32b13a0ec9353.torrent",
+      "action": "renamed; original bytes preserved",
+      "review": "解析完整 bencode 元数据；未下载目标"
+    },
+    {
+      "path": "机械臂文档/9、Mediapipe手部控制.pdf",
+      "size": 336356,
+      "sha256": "5290fdb86db93eb1617aa3516d750ec2354ef33cc7fc6fa433d4ecb08d0e455e",
+      "new_path": "modules/arm/vendor/09-mediapipe-hand-control.pdf",
+      "action": "renamed; original bytes preserved",
+      "review": "提取并阅读全部页面文字；未逐页视觉校对"
+    },
+    {
+      "path": "测试报告-2026-10-11.md",
+      "size": 11411,
+      "sha256": "9ddfc1c2cd36aa0ba6ef918c6ecc778aa66c40d3c8848331c8358b42d2e8c114",
+      "new_path": "docs/reports/2026-10-11-static-tests.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    },
+    {
+      "path": "阶段成果总结-2026-10-11.md",
+      "size": 4563,
+      "sha256": "9b222e7164a30c5251a8b40e0eacc3f810dc41c1170b969b6163ba81e5c2a9e5",
+      "new_path": "docs/reports/2026-10-11-milestone.md",
+      "action": "migrated or retained at new_path; reviewed and edited",
+      "review": "全文审读；按职责迁移／重写并检查引用"
+    }
+  ]
+}

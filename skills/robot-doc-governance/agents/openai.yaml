@@ -1,4 +1,4 @@
 interface:
   display_name: "机器人文档维护"
-  short_description: "按需利用状态、架构与证据，精简维护机器人文档并支持准确编程和交接"
-  default_prompt: "使用 $robot-doc-governance，先读取当前任务相关文档，再按证据完成工作并更新最少必要记录。"
+  short_description: "按模块读取同级文档，核对历史证据并同步集中正文和生成副本"
+  default_prompt: "使用 $robot-doc-governance，先定位任务模块及相关文档，再按证据完成工作并同步受影响的文档副本。"

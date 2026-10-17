@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "description": "docs is the manually maintained source; targets are generated read-only copies with rebased links.",
+  "mirrors": [
+    {
+      "source": "docs/modules/arm.md",
+      "target": "modules/arm/README.md"
+    },
+    {
+      "source": "docs/modules/sensors.md",
+      "target": "modules/sensors/README.md"
+    },
+    {
+      "source": "docs/modules/chassis.md",
+      "target": "modules/chassis/README.md"
+    },
+    {
+      "source": "docs/modules/host.md",
+      "target": "modules/host/README.md"
+    },
+    {
+      "source": "docs/guides/arm.md",
+      "target": "modules/arm/operations.md"
+    },
+    {
+      "source": "docs/environment/software.md",
+      "target": "modules/arm/environment.md"
+    },
+    {
+      "source": "docs/references/arm-courses.md",
+      "target": "modules/arm/vendor/README.md"
+    },
+    {
+      "source": "docs/guides/sensors.md",
+      "target": "modules/sensors/operations.md"
+    },
+    {
+      "source": "docs/guides/data-recording.md",
+      "target": "modules/sensors/recording.md"
+    },
+    {
+      "source": "docs/guides/remote-access.md",
+      "target": "modules/host/remote-access.md"
+    },
+    {
+      "source": "docs/tooling.md",
+      "target": "tools/docs/README.md"
+    },
+    {
+      "source": "docs/environment/hardware.md",
+      "target": "modules/sensors/hardware.md"
+    },
+    {
+      "source": "docs/environment/software.md",
+      "target": "modules/sensors/environment.md"
+    },
+    {
+      "source": "docs/troubleshooting/README.md",
+      "target": "modules/sensors/troubleshooting.md"
+    },
+    {
+      "source": "docs/environment/hardware.md",
+      "target": "modules/chassis/hardware.md"
+    },
+    {
+      "source": "docs/environment/software.md",
+      "target": "modules/chassis/environment.md"
+    },
+    {
+      "source": "docs/troubleshooting/README.md",
+      "target": "modules/chassis/troubleshooting.md"
+    },
+    {
+      "source": "docs/environment/hardware.md",
+      "target": "modules/host/hardware.md"
+    },
+    {
+      "source": "docs/environment/software.md",
+      "target": "modules/host/environment.md"
+    },
+    {
+      "source": "docs/troubleshooting/README.md",
+      "target": "modules/host/troubleshooting.md"
+    }
+  ]
+}

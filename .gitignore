@@ -1,0 +1,4 @@
+# Local scratch and Python cache
+.audit-work/
+__pycache__/
+*.py[cod]

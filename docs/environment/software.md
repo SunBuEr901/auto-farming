@@ -1,0 +1,54 @@
+# 软件环境与配置
+
+更新：2026-10-17｜设备证据：2026-10-11 历史记录；本次未连接设备。
+
+来源：[2026-10-11 测试和配置记录](../reports/2026-10-11-static-tests.md)与[教程容器记录](../changes/README.md#2026-10-11机械臂教程需要进入预装的-ros-1-容器)。系统、内核与硬件见[硬件环境](hardware.md)。
+
+## ROS 环境与配置变更
+
+2026-10-11 最后验证的 `/home/jetson/.bashrc` 配置：
+
+```bash
+export ROS_DOMAIN_ID=77
+export ROBOT_TYPE=x3plus
+export RPLIDAR_TYPE=4ROS
+export CAMERA_TYPE=astraplus
+```
+
+`ROS_LOCALHOST_ONLY=0` 也在测试时生效。终端显示的 `my_robot_type` 是打印标签，实际环境变量为 `ROBOT_TYPE`。同理雷达实际变量为 `RPLIDAR_TYPE`。
+
+| 修改 | 结果 | 小车端备份 |
+|---|---|---|
+| `RPLIDAR_TYPE=a1` → `4ROS` | 新终端生效，独立雷达实测通过 | `/home/jetson/.bashrc.before-ydlidar-20261011-141056` |
+| `ROBOT_TYPE=x3` → `x3plus` | 新终端生效，仅完成环境标识修改 | `/home/jetson/.bashrc.before-x3plus-20261011-141254` |
+
+**重要限制：现有 `laser_bringup_launch.py` 仅接受 `x3/r2`，默认使用 `x3plus` 会被拒绝。** 2026-10-11 没有补齐 X3 Plus 的启动分支、模型和驱动。原厂 X3 底盘驱动硬编码类型 1，库中 Plus 类型为 2，但团队自定义固件是否沿用这些值仍待核对；不能只改数字就认定适配完成。
+
+教程中的 `/home/jetson/Rosmaster/RobotType/set_X3Plus.sh` 在本机不存在，未执行该脚本，也未创建冒充原厂脚本的替代文件。不要靠将车型改回 `x3` 来绕过限制后直接驱动实物。
+
+### 每个 ROS 终端的环境准备
+
+以下均在 **SSH 登录后的 Jetson Bash 终端** 执行。历史正常交互式登录会自动加载，当前加载情况需核对；若终端提示找不到软件包，可显式加载：
+
+```bash
+source /opt/ros/humble/setup.bash
+source /home/jetson/yahboomcar_ros2_ws/software/library_ws/install/setup.bash
+source /home/jetson/yahboomcar_ros2_ws/yahboomcar_ws/install/setup.bash
+export ROS_DOMAIN_ID=77
+```
+
+检查：
+
+```bash
+printenv | grep -E '^(ROS_DISTRO|ROS_DOMAIN_ID|ROBOT_TYPE|RPLIDAR_TYPE|CAMERA_TYPE)='
+ros2 node list
+ros2 topic list -t
+```
+
+2026-10-11 传感器测试在宿主机 Humble 完成，无需进入 Docker。现有 `run_docker.sh` 指向 ROS Noetic 镜像，不是传感器启动入口。初始测试时 `docker ps -a` 未列出容器；同日后续已创建教程容器，见[机械臂环境](software.md#机械臂课程使用-ros-1-noetic-容器)。
+
+### 机械臂课程使用 ROS 1 Noetic 容器
+
+2026-10-11 补充实测：厂商机械臂前两课使用 ROS 1；宿主机只有 Humble，因此直接执行 `roscore` 会提示找不到命令。小车已预装 `yahboomtechnology/ros-noetic:3.0.5`，其中包含 MoveIt 配置助手和 X3 Plus 配置包，容器内 `roscore` 已启动并查询成功。
+
+2026-10-11 已部署教程入口，用于配置与仿真准备，没有映射实物控制设备。启动、配置保存、检查、停止和显示认证处理统一维护在[机械臂专题](../guides/arm.md#3-现在按这几步做)。执行前核对其环境与验证边界；ROS master 启动通过，完整仿真及真机控制未验收。

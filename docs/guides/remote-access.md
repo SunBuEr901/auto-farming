@@ -1,0 +1,27 @@
+# 远程连接
+
+更新：2026-10-17｜设备证据：2026-10-11 历史记录；本次未连接设备。
+
+## 远程连接
+
+### SSH：已验证
+
+在 **Windows PowerShell** 执行：
+
+```powershell
+ssh jetson@10.253.197.6
+```
+
+用户名 `jetson`，主机名 `yahboom`。密码通过终端交互输入，本项目文档不保存密码。
+
+2026-10-11 实测 IP 为 `10.253.197.6`，使用前需复核。`192.168.1.11` 是此前 ROSMASTER 热点模式下使用过的地址，不能默认仍有效。`172.17.0.1` 为 Docker 虚拟网桥地址，不作为笔记本连接小车的目标。
+
+连接失败时先确认小车和笔记本的网络连通性；若换网或地址变化，在小车本机终端执行 `hostname -I` 查找当前局域网地址。
+
+### 远程桌面：服务已验证，交互待验证
+
+Windows 可用 `Win+R` 输入 `mstsc`，计算机填写当前小车 IP。RDP 凭据可能不同于 Linux 登录凭据，以 GNOME Remote Desktop 的配置为准。
+
+已测得 `gnome-remote-desktop.service` 为 active/running，TCP 3389（RDP）与 5900（VNC）监听；没有完成实际桌面登录或画面验证。
+
+历史 VNC 错误 `RFB protocol error: bad rectangle` 可能涉及兼容性，尚未确定根因。历史 `Cannot load libnvidia-encode.so.1` 表示硬件编码库未成功加载，并不等于整个远程桌面服务未启动。本次不针对这两个问题实施修复。
